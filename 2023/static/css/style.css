@@ -1,0 +1,450 @@
+ /*For Mobile */
+ .programimg {
+ 	border-width: 2px;
+ 	border-color: #009688;
+ 	border-style: solid;
+ }
+section {
+	padding: 70px 0px;
+}
+/*
+.bar-container {
+    height: 40px;
+}*/
+
+section .container {
+	padding-bottom: 0px;
+}
+span.titlesec {
+	/*text-align: center;*/
+	font-weight: bold;
+	font-size: 2.0em;
+	display: block;
+}
+span.subtitlesec {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+section.smaller {
+	padding:35;
+}
+/*
+@media screen and (max-width: 540px) {
+    
+    .navbar-brand {
+    	left: 50%;
+    	position: fixed;
+    	transform: translate(-50%, 0);
+    	top: 1%;
+    }
+}
+*/
+
+.knowledgebase {
+	font-size: 15px;
+}
+.knowledgebase h5 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* For Tablets */ 
+@media screen and (min-width: 540px) and (max-width: 780px) {
+   
+
+}
+.btn {
+    border: 1px solid;
+}
+
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: #ccc;
+  color: #777;
+}
+
+.btn-primary-outline:hover {
+  background-color: transparent;
+  border-color: #009688;
+  color: #009688;
+}
+
+
+
+
+.speakerpic {
+	/*min-width: 14%;*/
+	margin-left: 5%;
+	/*width: 180px;*/
+
+}
+
+.speakerpic img {
+	width: 180px;
+	height: 180px;
+  	display: block;
+  	object-fit: scale-down;
+ }
+
+
+
+
+.profpic {
+	/*min-width: 14%;*/
+	margin: auto;
+	width: 180px;
+
+}
+
+.profpic img {
+	width: 130px;
+	height: 130px;
+  display: block;
+  margin: auto;
+}
+.profpic .profname {
+  text-align: center;
+  font-size: 16px;
+  height: 20px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+
+}
+.profpic .institution {
+  text-align: center;
+  height: 20px;
+}
+
+.paperlink img:hover {
+  background-color: transparent;
+  border-color: #009688;
+  color: #009688;
+  border-width: 2px;
+  border-style: solid;
+  max-width: 100%;
+  max-height: 100&;
+}
+.paperlink img {
+  background-color: transparent;
+  border-color: #ccc;
+  color: #777;
+  border-width: 2px;
+  border-style: solid;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ui-autocomplete { height: 200px; overflow-y: scroll; overflow-x: hidden;}
+
+
+.into-title {
+	text-align: center;
+}
+.into-pic img {
+	height: 80px;
+	max-width: 100%;
+	width: 80px;
+	display: block;
+	margin: 8% auto;
+}
+.into-content {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: small;
+}
+
+/* Add the below transitions to allow a smooth color change similar to lyft */
+.navbar {
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    z-index: 5;
+}
+
+.navbar.scrolled {
+    background: rgb(220, 220, 220);  IE 
+    background: rgba(220, 220, 220, 1.0); /* NON-IE 
+/*}*/
+}
+
+
+
+body {
+	font-family: Montserrat; /*Montserrat; */
+	font-size: medium;
+	text-align: justify;
+}
+li {
+    display: block;
+}
+ul.list-feat {
+
+    margin-bottom: 35px;
+}
+ul.list-feat li{
+    font-size: 16px;
+    margin-top: 25px;
+}
+ul.list-feat li:before {
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 15px;
+    margin-top: 6px;
+    margin-left: -17px;
+    color: #009688;
+}
+
+ul.list-feat.clickitems li a:hover{
+    cursor: pointer;
+    color: #009688;
+    font-size: 16px;
+    margin-top: 9%;
+}
+
+ul.list-download li{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+ul.list-download li p {
+  margin-left: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /*width: 120px;*/
+}
+ul.list-download li p.download a:before{
+    width: 20px;
+    height: 20px;
+    float: left;
+    font-size: 15px;
+    background-size: 20px;
+    content: " ";
+    display: inline-block;
+    margin-right: 7px;
+    font-family: 'Glyphicons Halflings';
+}
+
+ul.list-download li p.download.linux a:before{
+  background-image: url('../images/icons/linux_unselected.png');
+}
+
+ul.list-download li p.download.mac a:before {
+  background-image: url('../images/icons/apple_unselected.png');
+}
+
+ul.list-download li p.download.github a:before{
+    background-image: url('../images/icons/github_unselected.png');
+}
+
+
+ul.list-download li p.download.linux a:hover:before{
+  background-image: url('../images/icons/linux_selected.png');
+}
+
+ul.list-download li p.download.mac a:hover:before {
+  background-image: url('../images/icons/apple_selected.png');
+}
+
+ul.list-download li p.download.github a:hover:before{
+    background-image: url('../images/icons/github_selected.png');
+}
+
+/*ul.list-download li a.ubuntu:before{
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    background: url('../images/icons/linux.svg') center left no-repeat;
+}*/
+
+.publication {
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+}
+.content_publication {
+    margin-left: 20px;
+    display: inline-block;
+    width: 70%; 
+    vertical-align: top;
+}
+
+.content_publication p {
+    font-weight: bolder;
+}
+.icon_publication {
+    display: inline-block;
+    width: 20%; 
+    vertical-align: top;
+}
+
+
+#titleprogram {
+	color: #009688;
+}
+
+p.title_paper {
+    margin-bottom: 5px;
+}
+p.explanation_paper {
+    font-weight: normal;
+
+}
+
+
+button.search_banner {
+
+    color: lightgray;
+    height: 40px;
+    bottom: 13px;
+    width: 40px;
+    font-size: 1.5em;
+    background-color: rgb(110, 132, 96, 0);
+    border-width:0px;
+}
+
+button.search_banner:hover {
+    font-size: 1.5em;
+    cursor: pointer;
+    color: white;
+    height: 40px;
+    bottom: 13px;
+    width: 40px;
+    background-color: rgb(174, 200, 152, 0);
+    border-width:0px;
+
+
+}
+
+button.search_top {
+
+    color: white;
+    height: 30px;
+    bottom: 13px;
+    width: 60px;
+    object-position: bottom;
+    position: absolute;
+    margin-left: 5px;
+    background-color: rgb(110, 132, 96);
+    border-width:0px;
+}
+
+button.search_top:hover {
+    color: white;
+    height: 30px;
+    bottom: 13px;
+    width: 60px;
+    object-position: bottom;
+    position: absolute;
+    margin-left: 5px;
+    background-color: rgb(174, 200, 152);
+    border-width:0px;
+
+
+}
+
+.robothowsearch:focus {
+    outline-width: 0;
+
+}
+
+.doccontent .row h5{
+    padding-bottom: 10px;
+    width: 100%;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+
+.doccontent .row h3{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.doccontent .row h2{
+    font-weight: 700;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.doccontent .row h2:after{
+    content:' ';
+    margin-top: 10px;
+    display:block;
+    border:1px solid rgba(235, 235, 235, 0.9);
+}
+.doccontent {
+    padding: 50px;
+}
+
+#itemdoc a:hover {
+    font-size: large;
+    font-weight: 600;
+    text-decoration: None
+}
+
+#itemdoc a {
+    font-size: large;
+    font-weight: 600;
+    color: rgb(50,50,50)
+}
+
+.half-rule.hl {
+    border-top: 2px solid #009688;
+}
+
+.card-text {
+    font-size: 0.8rem;
+}
+
+
+.col-md-3.mx-auto.wide {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.title {
+    font-size: 2.5em;
+}
+.subtitle {
+    font-size: 1.5em;
+}
+
+.titlebox {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+@media screen and (min-width: 481px){
+    .searchnav {
+	display: inline-block;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .searchnav {
+	display: none;
+	font-size: 50px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .titlebox {
+	padding: 0px;
+    }
+
+    .title {
+	font-size: 2.0em;
+    }
+    .subtitle {
+	font-size: 1.5em;
+    }
+}
