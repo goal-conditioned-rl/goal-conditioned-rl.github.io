@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Workshop on Goal-Conditioned Reinforcement Learning</title>
+    <title>Goal-Conditioned Reinforcement Learning Workshop</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
       <meta charset="utf-8">
@@ -20,7 +20,6 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- Custom styles for this template -->
@@ -71,7 +70,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#callpapers"> Call for papers </a>
+                    <a class="nav-link js-scroll-trigger" href="#callpapers"> Call for Contributions </a>
                 </li>
 
                 <!-- <li class="nav-item">
@@ -100,7 +99,7 @@
         <p style="text-align: center; margin-bottom: 2" class="title">Goal-Conditioned Reinforcement Learning</p>
         <p style="text-align: center; margin-bottom: 0" class="subtitle">Workshop at NeurIPS 2023 </p>
         <p style="text-align: center; margin-bottom: 0" class="subtitle">New Orleans Ernest N. Morial Convention Center, Louisiana, USA</p>
-        <p style="text-align: center; margin-bottom: 0" class="subtitle">Room: TBD<span style="padding-right: 3em;"></span>Date: TBD</p>
+        <p style="text-align: center; margin-bottom: 0" class="subtitle">Date: TBD<span style="padding-right: 3.2em;"></span>Room: TBD</p>
 <!--		 <p style="text-align: center; margin-bottom: 0" class="subtitle">Submit your questions in the <a href="https://pheedloop.com/CoRL2022/virtual/?page=channels&section=SES29VV7IMN12XXOW">Pheedloop chat</a></p>-->
 
         </div>
@@ -307,48 +306,91 @@
         <div class="container">
         <div class="row">
             <div class="col-md-10 mx-auto">
-        <span class=titlesec>Call for papers (FIXME)</span><br>
-&lt;!&ndash;			   To be announced.&ndash;&gt;
-                <span style="color:red">New: </span> The call for papers is now open.
-            <br><br>
-            <h5 style="font-weight: bold"> Areas of interest </h5>
-            We solicit submissions related to (but not limited to) the following themes on interaction-grounded machine learning with humans:
+        <span class=titlesec>Call for Contributions<br>
+        <span style="font-weight: normal;font-size: 0.72em;margin-left:0.1em";>&#9659; 5-min video or 2-page report (You choose!)</span>
+        </span><br>
+                <!-- <span style="color:red">New: </span> The call for papers is now open. -->
+            <!-- <br><br> -->
+
+<!-- Our workshop accepts submissions broadly related to goal-conditioned sequential decision making.
+We aim to make sharing and discussing more efficient and accessible for individuals with different
+resources and all backgrounds (e.g., compute resources, language ability).
+Submission Topics. We encourage submissions generally related to all facets of goal-conditioned
+RL, drawing upon the many subfields in which these problems are studied (e.g., developmental
+robotics, ML for chemical synthesis, RLHF). Topics may include (but are not limited to):
+Algorithms. We encourage both proposals of new methods, as well as analyses and/or evaluations
+of existing ones.
+Connections between goal-conditioned RL and other ML areas. Examples might include represen-
+tation learning, self-supervised learning, GANs, probabilistic inference, and duality.
+Applications of goal-conditioned decision making. In addition to common decision making tasks
+(e.g., robotics and games) and goal-conditioned applications (e.g., instruction-following, molecular
+discovery), we especially encourage work in goal-conditioned domains where GCRL is not (yet)
+the mainstream strategy.
+An Accessible Submission Format. The workshop will accept submissions in a more casual format
+to encourage new ideas and to be more inclusive. We are inspired by the ICLR 2023 Tiny Papers Track
+[ 13], which successfully encouraged submissions from all backgrounds via a similar casual format.
+A submission must be either a short 5-minute recorded talk or a 2-page (or shorter) report. In
+either case, submissions should maximize clarity and explanation. E.g., concise clear bullet points
+are preferred (even with incomplete sentences) over long detailed paragraphs. However, submissions
+are expected to still properly justify their significance. Accepted submissions are required to submit a
+4-page (or shorter) report containing sufficient details for future reference and reproducibility.
+Discouraging Already Finalized Work. The casual submission format also presents our workshop
+as a platform for early-stage projects to share ideas and gather feedback. In addition, reviewing
+criteria will favor concise and clear submissions, and discourage already complete full papers -->
+
+
+            <h5 style="font-weight: bold;margin-bottom: 0.72em"> Areas of Interest </h5>
+            We solicit submissions related to (but not limited to) the following topics:
             <br><br>
             <ul>
-                <li style="padding-bottom: 10px"> Leveraging different types of human input modalities for interactive learning</li>
-                <li style="padding-bottom: 10px"> Models and representations learned from human data</li>
-                <li style="padding-bottom: 10px"> Online learning algorithms for human-machine collaboration</li>
-                <li style="padding-bottom: 10px"> Personalized interaction-based learning</li>
-                <li style="padding-bottom: 10px"> Theoretical advances for interactive learning with implicit human feedback</li>
-                <li style="padding-bottom: 10px"> Interactive Learning with non-stationary rewards and environment dynamics</li>
-                <li style="padding-bottom: 10px"> Applications for HCI and accessibility</li>
-                <li style="padding-bottom: 10px"> Understanding how humans teach other humans and learning agents/embodied robots</li>
+                <li style="padding-bottom: 10px"><bf>Algorithms.</bf><br>We encourage both proposals of new methods, as well as analyses and/or evaluations of existing ones.</li>
+                <li style="padding-bottom: 10px"><bf>Connections between goal-conditioned RL and other ML areas.</bf><br>Examples might include representation learning, self-supervised learning, GANs, probabilistic inference, metric learning, duality, etc.</li>
+                <li style="padding-bottom: 10px"><bf>Applications of goal-conditioned decision making.</bf><br>In addition to common decision making tasks
+(e.g., robotics and games) and goal-conditioned applications (e.g., instruction-following, molecular
+discovery), we especially encourage work in goal-conditioned domains where GCRL is not (yet)
+the mainstream strategy</li>
             </ul>
-                All submissions will be managed through <a href="https://openreview.net/group?id=ICML.cc/2023/Workshop/ILHF">OpenReview</a>.
-                The review process is double-blind so the submission should be anonymized.
-                Papers should be a maximum of 8 pages (excluding references), and <a href="https://media.icml.cc/Conferences/ICML2023/Styles/icml2023.zip">formatted in ICML style</a>.
-                Accepted papers will be presented as posters during the workshop and select works will be invited to give spotlight talks during the workshop.
-                Accepted papers will be made available online on the workshop website as non-archival reports, allowing submissions to future conferences or journals.
-            <br><br>
-                Authors may optionally add appendices in their submitted paper.
-                Supplementary Materials uploads are to only be used optionally for extra videos/code/data/figures and should be uploaded separately in the submission website.
-            <br><br>
-                Submissions will be evaluated based on novelty, rigor, and relevance to theme of the workshop. Both empirical and theoretical contributions are welcome.
-                All participants must adhere to the ICML Code of Conduct.
-                            <br><br>
-            <h5 style="font-weight: bold"> Important Dates </h5>
+
+            <h5 style="font-weight: bold;margin-bottom: 0.72em;"> Accessible Submission Format </h5>
+            <p>The workshop will accept submissions in a more casual format to encourage new ideas and to be more accessible.</p>
+            <ul>
+                <li style="padding-bottom: 10px">A submission must be either <bf>a short 5-minute recorded talk</bf> or <bf>a 2-page (or shorter) report</bf>.</li>
+                <li style="padding-bottom: 10px">Submissions should <bf>maximize clarity and explanation</bf>. E.g., concise clear bullet points are preferred (even with incomplete sentences) over long detailed paragraphs.</li>
+                <li style="padding-bottom: 10px">Submissions should still <bf>properly justify their significance</bf>.</li>
+                <li style="padding-bottom: 10px"><bf>Accepted submissions</bf>  will be required to submit a 4-page (or shorter) report containing sufficient details for future reference and reproducibility.</li>
+            </ul>
+
+            <h5 style="font-weight: bold;margin-bottom: 0.72em;"> Submission </h5>
+            <ul>
+                <li style="padding-bottom: 10px">All submissions will be managed through OpenReview (link TBA).</li>
+                <li style="padding-bottom: 10px">The review process is double-blind so the submission should be anonymized. For video submission, natural voice narration is still considered anonymized. However, the video must not show authors' faces or names.</li>
+                <li>Format: choose <bf>one of the following two:</bf>
+                  <ul>
+                    <li style="padding-top: 10px;padding-bottom: 10px">
+                        <bf>A video (e.g., a narrated slide deck, a video of a talk) in mp4 format with at most 5 minutes.<br>
+                    </li>
+                    <li style="padding-bottom: 10px">
+                        <bf>A report in <a href="https://neurips.cc/Conferences/2023/PaperInformation/StyleFiles">the NeurIPS style</a> with at most 2 pages.<br>
+                    </li>
+                  </ul>
+                </li>
+                <li style="padding-bottom: 10px">Submissions will be evaluated based on conciseness, novelty, rigor, and relevance to theme of the workshop. Both empirical and theoretical contributions are welcomed.</li>
+                <li style="padding-bottom: 10px">All participants must adhere to the NeurIPS Code of Conduct.</li>
+            </ul>
+
+            <h5 style="font-weight: bold;margin-bottom: 0.72em;"> Important Dates </h5>
             <ul>
             <li style="display: list-item">
-                <b>Submission deadline:</b> May <s>24th</s> 31st, 2023, AoE.
+                <b>Submission deadline:</b> September 29th, 2023, AoE.
             </li>
             <li style="display: list-item">
-                <b>Author Notifications:</b> June 19th, 2023, AoE.
+                <b>Author Notifications:</b> October 13th, 2023, AoE.
+            </li>
+            <li style="display: list-item">
+                <b>Camera Ready:</b> TBD.
             </li>
                 <li style="display: list-item">
-                    <b>Camera Ready:</b> July 10th, 2023, AoE.
-            </li>
-                    <li style="display: list-item">
-                    <b>Workshop:</b> July 29th, 2023.
+                <b>Workshop:</b> TBD.
             </li>
             </ul>
         </div>
@@ -361,24 +403,21 @@
 
     <!-- <hr class="half-rule"/> -->
     <!-- <section id="papers"> -->
-<!--  -->
     <!--     <div class="container"> -->
     <!--         <div class="row"> -->
     <!--             <div class="col-md-10 mx-auto"> -->
     <!--                 <span class=titlesec>Papers</span><br> -->
-<!--  -->
     <!--                 <ul class="listpapers"> -->
     <!--                     <li> -->
     <!--                         TITLE -->
 	<!-- 					<a class="linkpaper" href="./docs/camready_8.pdf"> [link]</a> -->
-    <!--                         <span style="color: #ff8c00">(spotlight)</span> (optional) --> -->
+    <!--                         <span style="color: #ff8c00">(spotlight)</span> (optional) -->
     <!--                         <br> -->
     <!--                         <span class="authorname"> -->
     <!--                             XYZ, ABC -->
     <!--                         </span> -->
     <!--                     </li> -->
     <!--                 </ul> -->
-<!--  -->
     <!--             </div> -->
     <!--         </div> -->
     <!--     </div> -->
